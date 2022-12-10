@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ownerdetail.css">
+    <title>Rapid Rental</title>
+</head>
+<body>
+    
+    
+
+<!--Navbar-->
+<div class="container">
+    <div class="navbar">
+        <a href="../index.html">
+            <img src="../img/logo.png" class="logo">
+        </a>
+       
+        <nav>    
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../car.html">Car</a></li>
+                <li><a href="../bike.html">Bike</a></li>
+				<a href="../login/login.php">
+				<button class="btn4">Login</button>
+				</a>
+            </ul>
+        </nav>  
+	</div>
+</div>
+
+<!--owner details-->
+<div class="detail">
+    <h2>
+        <span>
+            Owner's Details
+        </span>
+    </h2>
+    <div class="Container">
+
+        <form action="connect.php" method="post">
+            <div class="form-group">
+            <label for="Name">Name:</label>
+            <br>
+            <input type="text" placeholder="Enter Name" id="name" name="name" class="width">
+            </div>
+
+            <div class="form-group">
+            <label for="Phone">Phone Number:</label>
+            <br>
+            <input type="phone" placeholder="Enter Phone Number" id="phone" name="phone" class="width">
+            </div>
+
+            <div class="form-group">
+            <label for="Email">Email ID:</label>
+            <br>
+            <input type="email" placeholder="Enter Email ID" id="email" name="email" class="width">
+            </div>
+
+            <div class="form-group">
+            <label for="Address">Address:</label>
+            <br>
+            <textarea name="Address" id="address" placeholder="Address" cols="46" rows="5"></textarea>
+            </div>
+
+            <h1>
+                <span>
+                    Vehical Details
+                </span>
+            </h1>
+
+            <div class="form-group">
+                <label for="name">Types Of Vehical</label>
+                <br>
+                 <input type="radio" name="gender" value="c" id="radio" class="radio">Car
+                 <input type="radio" name="gender" value="b" id="radio" class="radio">Bike
+            </div>
+
+            <div class="form-group">
+                <label for="upload">Upload the Image of Vehicals Registration form</label>
+                <br>
+                <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*" id="img" name="img">
+            </div>
+
+            <div class="form-group">
+                <label for="upload">Upload the Image of Car Or Bike</label>
+                <br>
+                <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*" id="img2" name="img2">
+            </div>
+
+            <div class="form-group">
+                <label for="km">KM Driven</label>
+                <br>
+                <input type="number" name="km" id="km">
+            </div>
+
+            <div class="form-group">
+                <label for="Terms">I accept</label>
+                <a href="">Terms & Condition</a>
+                <input type="checkbox" name="terms" id="term">
+            </div>
+
+        </form>
+    </div>
+    <div class="button">
+        <a href="">
+            <button class="btn4">
+                Submit
+            </button>
+        </a>
+        </div>
+</div>
+
+
+
+<!--Footer-->
+<footer id="footer" class="section footer">
+	<div class="containerss">
+		<div class="footer-container">
+			
+			<div class="footer-center">
+			  <h3>CONTACT US</h3>
+			  <div>
+				<span>
+				  <i class="fas fa-map-marker-alt"></i>
+				</span>
+				 Phone no: +91 9665322823
+			  </div>
+			  <div>
+				<span>
+				  <i class="far fa-envelope"></i>
+				</span>
+				Email: rapidrental@gmail.com
+			  </div>
+			  <div>
+				<span>
+				  <i class="fas fa-phone"></i>
+				</span>
+				Address: Margao goa 403601
+			  </div>
+			</div>
+			
+			<div class="footer-center">
+				<h3>Services</h3>
+				<a href="#">Rent a Car</a>
+				<a href="#">Rent a Motorcycle</a>
+				
+			</div>
+        <div class="footer-center">
+			<h3>Company</h3>
+			<a href="#">About Us</a>
+			<a href="#">Blog</a>
+			<a href="#">FAQ</a>
+			<a href="#">For Business</a>
+			<a href="#">Terms and Conditions</a>
+			<a href="#">Privacy</a>
+        </div>
+          <div class="footer-centers">
+			<h3>Connect With Us</h3>
+			<a href="">
+			<img src="../img/icons/facebook.png" alt="">
+			</a>
+			<a href="">
+			<img src="../img/icons/instagram.png" alt="">
+			</a>
+			<br>
+			<a href="">
+			<img src="../img/icons/twitter.png" alt="">
+			</a>
+			<a href="">
+			<img src="../img/icons/blogger.png" alt="">
+			</a>
+		</div>
+     
+		</div>
+		<hr>
+		<p>Copyright @ 2021 - All Rights Reserved - Rapid Rental</p>
+	</div>
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* Navigation*/
+
+.container{
+	width: 100%;
+	height: 12vh;
+	padding-left: 4%;
+	padding-right: 3%;
+	box-sizing: border-box;
+	z-index: 999;
+	position: fixed;
+	background-color: white;
+    box-shadow:0 2px 4px 0 gray;
+}
+
+.navbar{
+	width: 100%;
+	display: flex;
+	height: 14vh;
+	align-items: center;
+	z-index: 999;
+}
+
+.logo{
+	width: 200px;
+	cursor: pointer;
+	margin: 30px 0;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+.btn4{
+	width: 80px;
+	height: 40px;
+	color: white;
+	background: rgba(233, 48, 48, 1);
+	border: 1px solid black;
+	outline: none;
+	font-weight: 900;
+}
+.btn4:hover{
+    color: black;
+}
+
+/* Background*/
+
+.IMG{
+   
+    width: 100%;
+    height: 90vh;
+
+}
+
+
+.background img{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    bottom: -30px;
+}
+
+.background h2{
+    position: relative;
+    font-size: 80px;
+    top: 166px;
+    padding-left: 40px;
+}
+
+
+
+/* calender*/
+
+.containers{
+    width: 100%;
+   
+}
+
+.form{
+    position: relative;
+    display: inline-block;
+   width: 250px;
+    
+    
+
+}
+
+.form label{
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.form input{
+    position: relative;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+    line-height: 10px;
+    width: 10rem;
+    padding: 10px;
+}
+
+.calender{
+    position: relative;
+    background-color: #F0F0F0;
+   padding: 20px;
+    height: 173px;
+    bottom: 62px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:0 4px 4px 0 gray;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form select{
+    padding: 10px;
+    width: 10rem;
+    border-radius: 5px;
+   border: 1px solid black;
+}
+
+/* Owners Name*/
+
+.Section{
+    position: relative;
+    width: 100%;
+    
+}
+
+.content{
+    position: relative;
+    padding: 30px;
+    text-align: center;
+   top: 10spx;
+   box-shadow:0 4px 4px 0 gray;
+   background: #F0F0F0;
+   margin-right: auto;
+   margin-left: auto;
+  width: 90%;
+   height: 130px;
+}
+
+.na{
+    display: inline-block;
+    width: 20rem;
+}
+
+.content form{
+    position: relative;
+    top: 20px;
+}
+.na input{
+    height: 40px;
+    width: 13rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Car info*/
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    
+    top: 3rem;
+}
+
+.main{
+    position: relative;
+    width: 90%;
+    height: 75vh;
+    background: #F0F0F0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 gray;
+}
+
+.icon-box img{
+    position: relative;
+    height: 50px;
+    padding-left: 5px;
+    
+}
+
+.icon h1{
+    position: relative;
+   font-size: 16px;
+    
+   
+  
+}
+
+.icon-box{
+    display: inline-block;
+    width: 100px;
+}
+
+.icon{
+    padding-left: 150px;
+}
+
+.car-box h2{
+    font-size: 26px;
+    padding-left: 155px;
+    padding-bottom: 40px;
+}
+
+.img img{
+    height: 250px;
+    padding-left: 97px;
+}
+
+.column{
+    position: relative;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    bottom: 23rem;
+   
+    background: white;
+    right: 120px;
+    height: 350px;
+    box-shadow: 0 2px 4px 0;
+    border-radius: 2px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+
+
+.column-box{
+    position: relative;
+    width: 435px;
+}
+
+.column-box h2{
+    font-size: 18px;
+    color: red;
+    font-weight: 700;
+}
+
+.column-box p{
+    font-size: 14px;
+
+}
+
+.column-box h1{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.ul li{
+    position: relative;
+    width: 215px;
+    display: inline-block;
+    line-height: 35px;
+    list-style: none;
+}
+
+.ul a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-weight: 700;
+}
+
+.button{
+    position: relative;
+    float: right;
+    
+}
+
+.btn2{
+    margin-right: -113px;
+    position: relative;
+    width: 96px;
+    height: 42px;
+    background: rgba(233, 48, 48, 1);
+    color: white;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.hr2{
+    position: relative;
+    width: 70%;
+}
+
+
+/*more details*/
+
+.Details{
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    height: 120vh;
+}
+
+.section-detail{
+    width: 90%;
+    height: 95vh;
+    background: #F0f0f0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 gray;
+    
+}
+
+.Boxes{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2px;
+    padding-top: 55px;
+}
+
+.icos img{
+    height: 70px;
+}
+
+.icos{
+  
+    width: 200px;
+   
+}
+
+.hr{
+    position: relative;
+    width: 100%;
+    border: 1px  solid rgb(78, 78, 78);
+    top: 1rem;
+}
+
+.section-detail h2{
+    font-size: 18px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.text p{
+    position: relative;
+   
+}
+
+.text h2{
+    position: relative;
+    
+}
+
+.pra p{
+position: relative;
+top: 30px;
+padding: 56px;
+line-height: 40px;  
+}
+
+
+/*Footer*/
+
+.footer {
+	background-color: black;
+	padding-top: 2rem;
+	padding-left: 3rem;
+	padding-right: 4rem;
+	line-height: 2rem;
+	height: 67vh;
+	width: 100%;
+  }
+  
+
+  .footer-center{
+	  position: relative;
+	  bottom: 37px;
+	  padding: 1rem;
+	  margin: 1rem;
+  }
+
+  .footer-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	color: white;
+  }
+  
+  .footer-center a {
+	display: block;
+	color: #f1f1f1;
+	font-size: 1.0rem;
+	transition: 0.6s;
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  .footer-center a:hover {
+	color: red;
+  }
+  .footer-centers img:hover {
+	background-color: red;
+	border-radius: 20px;
+  }
+  
+  .footer-center div {
+	color: #f1f1f1;
+	font-size: 1.0rem;
+  }
+  
+  .footer-center h3 {
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+  }
+
+  .footer-centers h3{
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+  }
+ 
+.footer-centers img{
+	position: relative;
+	height: 80px;
+}
+
+.containerss p{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.footer p:hover{
+	color: red;
+}
+
+hr{
+    width: 100%;
+}
